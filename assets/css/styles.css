@@ -201,9 +201,9 @@ header .navbar-default.scrolled ul.navbar-nav {
 }
 section#about {
   position: relative;
-  background-image: url('../img/1k.png');
+/*  background-image: url('../img/1k.png');
   background-position: 50% 50%;
-  background-size: 100% 100%;
+  background-size: 100% 100%;*/
 }
 section#about .about-item {
   text-align: center;
