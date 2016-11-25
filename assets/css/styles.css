@@ -998,9 +998,9 @@ section#support .media:hover h3 {
 footer {
   background: #66cdcc;
   /* Old browsers */
- background-image: url('../img/footer BG bottels.png');
- background-repeat: repeat-x;
- background-size: 40%;
+ background-image: url('../img/footer.jpg');
+ background-repeat: no-repeat;
+ background-size: 130%;
   /* IE6-9 fallback on horizontal gradient */
 }
 footer .social a {
