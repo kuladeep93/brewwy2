@@ -402,18 +402,6 @@ section#screens .filter a {
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
-/* demo video Section */
-section#demo .video-container {
-  padding: 20px;
-  border: 1px solid #b3b3b3;
-  min-height: 450px;
-  overflow: hidden;
-}
-section#demo iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-}
 /* Get app Section */
 section#getApp {
   -webkit-background-size: cover;
