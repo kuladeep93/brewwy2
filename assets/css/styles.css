@@ -124,7 +124,7 @@ a.navbar-brand img {
     max-height: 200px;
 }
 header .navbar-default.scrolled {
-  background: rgba(255, 255, 255, 0.8);
+  background: #fff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
@@ -140,10 +140,11 @@ header .navbar-default.scrolled .navbar-brand {
 }
 header .navbar-default.scrolled .navbar-brand img {
   width: auto;
-  max-height: 50px;
+  max-height: 110px;
 }
 header .navbar-default.scrolled ul.navbar-nav {
   padding-top: 15px;
+  margin-bottom: 10px;
 }
 /*header section*/ 
 .tp-banner-container{
@@ -820,7 +821,7 @@ header .navbar-default ul.navbar-nav li a:hover {
   border-bottom: 3px solid #336799;
 }*/
 header .navbar-default.scrolled ul.navbar-nav li a {
-  color: #336799;
+  color: #000;
 }
 header .navbar-default.scrolled ul.navbar-nav li a:hover {
   color: #336799;
@@ -829,7 +830,10 @@ header .navbar-default.scrolled ul.navbar-nav li a:hover:after {
   background: #336799;
 }
 header .navbar-default.scrolled .navbar-brand {
-  background: #336799;
+  background: #fff;
+  position: absolute;
+  margin-bottom: 45px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
 }
 section .section-heading .divider:after {
   background: #66cdcc;
@@ -941,24 +945,27 @@ section#demo header h1:after {
 section#getApp {
   background: url("../img/freeze/bk-freeze-ga.jpg");
 }
+section#getApp h1{
+    color: #000;
+}
 section#getApp header {
-  color: #ffffff;
+  color: #000;
 }
 section#getApp header h1:after {
-  background: #ffffff;
+  background: #000;
 }
 section#getApp .platforms .media {
-  border: 2px solid #ffffff;
-  color: #ffffff;
+  border: 2px solid #000;
+  color: #000;
 }
 section#getApp .platforms .media a i {
-  color: #ffffff;
+  color: #000;
 }
 section#getApp .platforms .media a div.media-body {
-  color: #ffffff;
+  color: #000;
 }
 section#getApp .platforms .media:hover {
-  background: #ffffff;
+  background: #000;
 }
 section#getApp .platforms .media:hover a i,
 section#getApp .platforms .media:hover a div.media-body {
